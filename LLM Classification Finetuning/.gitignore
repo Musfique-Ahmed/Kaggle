@@ -1,0 +1,35 @@
+# Model files (large binary files)
+*.pth
+*.pt
+*.bin
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+
+# Model/training output directories
+results/
+checkpoints/
+weights/
+saved_models/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# HuggingFace cache
+.cache/
+
+# Kaggle data (large files)
+llm-classification-finetuning/*.csv
+
+# Submission files (optional - uncomment to keep)
+# submission.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.log
